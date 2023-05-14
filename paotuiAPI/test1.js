@@ -1,0 +1,2 @@
+strs = ['flower', 'flow', 'flight']
+

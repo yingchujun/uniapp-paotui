@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  	{
+  		"path": "pages/index/index",
+  		"style": {
+  			"navigationBarTitleText": "跑腿",
+        "app-plus": {
+          "titleNView": false,
+          "scrollIndicator":"none" //全局 在APP页面都不显示滚动条
+        }
+  		}
+    },
+    {
+      "path" : "pages/home/home",
+      "style" :                                                                                    
+      {
+          "navigationBarTitleText": "首页",
+          "enablePullDownRefresh": false,
+          "backgroundColor": "#f2f2f2"
+      }
+  }
+        ,{
+            "path" : "pages/index/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "注册"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/forget/forget",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "重置密码"
+            }
+            
+        }
+        ,{
+            "path" : "pages/publish/publish",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "发布"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "订单"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "个人中心"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/forget/reset/reset",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarTitleText": "设置新密码"
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#f2f2f2",
+		"backgroundColor": "#f2f2f2"
+	},
+	"uniIdRouter": {},
+  "easycom": {
+  	    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  	},
+  "tabBar": {
+  	"color": "#7A7E83",
+  	"selectedColor": "#3cc51f",
+  	"borderStyle": "black",
+  	"backgroundColor": "#ffffff",
+    "selectedColor": "#ee7c2c",
+  	"list": [{
+  		"pagePath": "pages/home/home",
+  		"iconPath": "static/tabar/shouye.png",
+  		"selectedIconPath": "static/tabar/shouye_1.png",
+  		"text": "首页"
+  	},
+    {
+    	"pagePath": "pages/publish/publish",
+    	"iconPath": "static/tabar/fabu.png",
+    	"selectedIconPath": "static/tabar/fabu_1.png",
+    	"text": "发布"
+    },
+    {
+    	"pagePath": "pages/order/order",
+    	"iconPath": "static/tabar/dingdan.png",
+    	"selectedIconPath": "static/tabar/dingdan_1.png",
+    	"text": "订单"
+    },
+    {
+    	"pagePath": "pages/my/my",
+    	"iconPath": "static/tabar/wode.png",
+    	"selectedIconPath": "static/tabar/wode_1.png",
+    	"text": "我的"
+    }
+    ]
+  }
+}
